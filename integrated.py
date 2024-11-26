@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import traceback
 import time
 
-file_path = "test_data/1727320101-665925967.pcd"
+file_path = "1727320101-665925967.pcd"
 
 def load_point_cloud(file_path):
     pcd = o3d.io.read_point_cloud(file_path)
